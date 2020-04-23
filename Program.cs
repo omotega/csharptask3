@@ -80,6 +80,7 @@ namespace c_
                 {
                     Console.WriteLine("Input your guess");
                     guessesremaining = 3-i;
+                    Console.WriteLine("Guessesremaining:" + guessesremaining);
                     guess = int.Parse(Console.ReadLine());
                     Random random = new Random();
                     randomNumber = random.Next(1, 51);
